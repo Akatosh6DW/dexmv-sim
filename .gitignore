@@ -14,3 +14,7 @@ imgui.ini
 .DS_Store
 /.idea
 /log
+*.egg-info/
+relocate_temp.xml
+examples/relocate_temp.xml
+examples/training_log/

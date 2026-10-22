@@ -103,7 +103,8 @@ def train():
 
     # Construct the baseline for PG
     baseline = MLPBaseline(
-        spec, reg_coef=1e-3, batch_size=64, epochs=2, learn_rate=1e-3, use_gpu=True
+        spec, reg_coef=1e-3, batch_size=64, epochs=2, learn_rate=1e-3,
+        use_gpu=False
     )
     # Load baseline from checkpoint
     if cfg.CHECKPOINT_BASELINE:
